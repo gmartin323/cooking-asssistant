@@ -6,9 +6,9 @@ import CheckCupboard from '../components/CheckCupboard'
 export default function InitialPage() {
   return (
     <div className="site-wrapper">
-      <div>
-        <Link to="/cook">Start cooking</Link>
-        <Link to="/shop">Start shopping</Link>
+      <div className="choice-container">
+        <Link to="/cook">Cook</Link>
+        <Link to="/shop">Shop</Link>
       </div>
       <AddToCupboardBtn />
       <CheckCupboard />
