@@ -5,9 +5,9 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <NavLink to="/cook" >Shop</NavLink>
+        <NavLink to="/cook" >Cook</NavLink>
         <Link className="home-btn" to="">Home</Link>
-        <NavLink to="/shop" >Cook</NavLink>
+        <NavLink to="/shop" >Shop</NavLink>
       </nav>
     </header>
   )
